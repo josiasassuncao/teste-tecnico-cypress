@@ -1,8 +1,8 @@
-Projeto Cypress
+#Projeto Cypress
 
-Versão: 1.0.0
+#Versão: 1.0.0
 
-Descrição
+#Descrição
 
 Este projeto utiliza o framework Cypress para a automação de testes. Ele está configurado para executar testes end-to-end (E2E) e testes de API.
 
