@@ -18,7 +18,7 @@ Cypress.Commands.add('login', (usuario, senha) => {
 })
 
 Cypress.Commands.add('verificaLogin', (usuario, senha) => {
-  cy.api({
+  cy.request({
     method: 'POST',
     url: `${Cypress.env('apiUrl')}/login`,
     failOnStatusCode: false,
